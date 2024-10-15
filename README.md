@@ -10,7 +10,7 @@ This application is built using **React**, enabling users to navigate through a 
 
 Check out the demo video below:
 
-[Demo Video](https://raw.githubusercontent.com/Faizan2005/godown-tree-view-app/main/simplescreenrecorder-2024-10-13_23.41.56.mkv)
+[Demo Video](https://github.com/Faizan2005/Godown-TreeVIew/blob/main/simplescreenrecorder-2024-10-16_02.03.58.mkv)
 
 ## Key Features
 
