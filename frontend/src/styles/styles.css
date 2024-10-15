@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #303438; /* Light background color */
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .tree {
+    list-style-type: none;
+    padding: 0;
+    max-width: 100%; /* Make the tree responsive */
+    font-size: 1.2em; /* Increase font size for tree items */
+    background-color: #303438;
+  }
+  
+  .tree-node {
+    margin: 10px 0;
+  }
+  
+  .node-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #4d5056; /* White background for nodes */
+    color: #e3e3e4;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .node-header:hover {
+    background-color: #383c40; /* Hover effect */
+  }
+  
+  .folder-icon {
+    margin-right: 5px;
+    color: #6c7178; /* Green color for folder icon */
+  }
+  
+  .node-name {
+    font-weight: bold;
+  }
+  
+  .sub-godowns {
+    padding-left: 20px; /* Indent sub-godowns */
+  }
+  
+  .items {
+    padding-left: 20px; /* Indent items */
+    color: #e3e3e4;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .item:hover {
+    background-color: #e0f7fa; /* Light blue on hover */
+  }
+  
+  .item-icon {
+    margin-right: 5px;
+    color: #6c7178; /* Blue color for item image icon */
+  }
+  
+  .item-details {
+    margin-top: 20px;
+    background-color: #ffffff; /* White background for item details */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-image {
+    width: 100%; /* Make image responsive */
+    max-width: 200px; /* Set a max width for images */
+  }
+  

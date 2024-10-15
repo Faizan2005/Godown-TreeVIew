@@ -1,0 +1,79 @@
+/* Body styles */
+body {
+  background-color: #303438; /* Set background color for the entire page */
+  color: white; /* Set default text color */
+  font-family: Arial, sans-serif; /* Set a default font family */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Main app container */
+.app-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  max-width: 1000px; /* Limit the total width of the app to 1000px */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding for better spacing */
+  background-color: #303438; /* Set background color for the main container */
+}
+
+/* Item details container */
+.item-details-container {
+  margin-top: 20px;
+  padding: 20px; /* Increase padding for larger boxes */
+  border: none; /* Remove border */
+  background-color: #4d5056; /* Set to the same color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+  width: 100%; /* Keep width as per container's width */
+  box-sizing: border-box;
+  font-size: 1.2rem; /* Use rem units for responsiveness */
+  max-width: 90%; /* Ensure it doesn't take up too much space */
+  min-width: 300px; /* Prevent it from becoming too narrow */
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #4d5056; /* Change this to match the desired button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+button:hover {
+  background-color: #383c40; /* Darker shade for hover effect */
+}
+
+/* User info and logout button container */
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; /* Subtle border for separation */
+}
+
+.user-info p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .item-details-container {
+    font-size: 1rem; /* Adjust text size for smaller screens */
+    padding: 15px; /* Slightly reduce padding */
+  }
+}

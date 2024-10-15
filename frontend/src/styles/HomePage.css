@@ -1,0 +1,54 @@
+/* HomePage container */
+.home-container {
+    background-color: #303438; /* Match the background color */
+    height: 95.5vh; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Header text */
+.home-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #e3e3e4; /* Light text color for header */
+}
+
+/* Welcome text */
+.home-container p {
+    font-size: 1.5rem;
+    color: #b0b0b0; /* Adjusted for better readability */
+    margin-bottom: 2rem;
+}
+
+/* Button container for centering buttons */
+.button-group {
+    display: flex;
+    gap: 15px; /* Add space between buttons */
+    justify-content: center;
+    background-color: #303438;
+}
+
+/* Button styles */
+button.btn {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: #4d5056; /* Use the same background color as other buttons */
+    color: #e3e3e4; /* Set button text color to whitish */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+button.btn:hover {
+    background-color: #383c40; /* Darker shade on hover */
+    color: #ffffff; /* Ensure text color stays white on hover */
+}
+
+
+

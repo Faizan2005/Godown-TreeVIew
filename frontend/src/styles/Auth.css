@@ -1,0 +1,65 @@
+/* Set the background color */
+body, html {
+    background-color: #303438; /* Match the background color */
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Vertically center */
+    padding: 20px;
+}
+
+.auth-form {
+    background-color: #4d5056; /* Match node background color */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.auth-form h2 {
+    margin-bottom: 1.5rem;
+    color: #e3e3e4; /* Light text color */
+}
+
+.auth-form .form-group {
+    margin-bottom: 1.25rem;
+    text-align: left; /* Align labels and inputs to the left */
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.auth-form .btn-block {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    margin-top: 15px; /* Add space between buttons */
+    background-color: #303438; /* Match button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.auth-form .btn-block:hover {
+    background-color: #404950; /* Slight hover effect */
+}
+
+/* Space between multiple buttons (in case they are stacked) */
+.auth-form .btn-block + .btn-block {
+    margin-top: 10px; /* Space between buttons */
+}
